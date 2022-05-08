@@ -1,0 +1,8 @@
+.activ {
+    position: relative;
+    color: $ColorAccent;
+
+    &::after {
+        transform: scaleX(1);
+    }
+}

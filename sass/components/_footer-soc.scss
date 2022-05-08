@@ -1,0 +1,23 @@
+.footer-soc {
+    margin-left: 70px;
+}
+
+.footer-soc__title {
+    padding-top: 12px;
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $ColorFooterText;
+}
+
+.footer-soc__link {
+    background-color: $ColorFooterSocIconBg;
+}
+
+.footer-soc__icon {
+    fill: $ColorFooterSocIcon;
+}

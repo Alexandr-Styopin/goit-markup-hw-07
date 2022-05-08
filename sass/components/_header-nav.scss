@@ -1,0 +1,47 @@
+.nav-menu {
+  display: flex;
+  align-items: center;
+
+}
+
+.nav-menu__list {
+  display: flex;
+  margin-left: 93px;
+}
+
+.nav-menu__item:not(:first-child) {
+  margin-left: 50px;
+}
+
+.nav-menu__link {
+  position: relative;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: $ColorNavText;
+
+  transition: color 250ms $CubicBezier;
+
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: -1px;
+    border-radius: 2px;
+    background-color: $ColorAccent;
+    transform: scaleX(0);
+    transition: transform 250ms $CubicBezier;
+  }
+
+  &:hover::after {
+    transform: scaleX(1);
+  }
+
+  &:hover {
+    color: $ColorAccent;
+  }
+}

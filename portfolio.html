@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -9,31 +10,24 @@
     <title>Portfolio</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
+      rel="stylesheet" />
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
+
   <body>
     <header class="header">
       <div class="container">
         <div class="header__body">
-          <a class="logo" href="./index.html"
-            ><span class="logo--colorize">Web</span>Studio
-          </a>
+          <a class="logo" href="./index.html">Web<span class="header-logo">Studio</span></a>
           <nav class="nav-menu">
             <ul class="nav-menu__list list">
               <li class="nav-menu__item">
                 <a class="nav-menu__link link" href="./index.html">Студия </a>
               </li>
               <li class="nav-menu__item">
-                <a
-                  class="nav-menu__link link nav-menu__link--activ"
-                  href="./portfolio.html"
-                  >Портфолио
+                <a class="nav-menu__link link activ" href="./portfolio.html">Портфолио
                 </a>
               </li>
               <li class="nav-menu__item">
@@ -41,25 +35,22 @@
               </li>
             </ul>
           </nav>
-          <div class="contacts-menu">
-            <ul class="contacts-menu__list list">
-              <li class="contacts-menu__item">
-                <a
-                  class="contacts-menu__link link"
-                  href="mailto:info@devstudio.com"
-                >
-                  <svg class="contacts-menu__icon" width="16px" height="12px">
+          <div class="header-contacts">
+            <ul class="header-contacts__list list">
+              <li class="header-contacts__item">
+                <a class="header-contacts__link link" href="mailto:info@devstudio.com">
+                  <svg class="header-contacts__icon" width="16px" height="12px">
                     <use href="./images/icons.svg#icon-envelope"></use>
                   </svg>
-                  <span class="contacts-menu__text">info@devstudio.com</span>
+                  <span class="header-contacts__text">info@devstudio.com</span>
                 </a>
               </li>
-              <li class="contacts-menu__item">
-                <a class="contacts-menu__link link" href="tel:+380961111111">
-                  <svg class="contacts-menu__icon" width="10px" height="16px">
+              <li class="header-contacts__item">
+                <a class="header-contacts__link link" href="tel:+380961111111">
+                  <svg class="header-contacts__icon" width="10px" height="16px">
                     <use href="./images/icons.svg#icon-smartphone"></use>
                   </svg>
-                  <span class="contacts-menu__text">+38 096 111 11 11</span>
+                  <span class="header-contacts__text">+38 096 111 11 11</span>
                 </a>
               </li>
             </ul>
@@ -71,38 +62,33 @@
       <section class="section">
         <div class="container">
           <h1 class="visually-hidden">Портфолио</h1>
-          <ul class="filter-buttons list">
-            <li class="filter-iteam">
-              <button class="filter-button" type="button">Все</button>
+          <ul class="filter__list list">
+            <li class="filter__iteam">
+              <button class="filter__button" type="button">Все</button>
             </li>
-            <li class="filter-iteam">
-              <button class="filter-button" type="button">Веб-сайты</button>
+            <li class="filter__iteam">
+              <button class="filter__button" type="button">Веб-сайты</button>
             </li>
-            <li class="filter-iteam">
-              <button class="filter-button" type="button">Приложения</button>
+            <li class="filter__iteam">
+              <button class="filter__button" type="button">Приложения</button>
             </li>
-            <li class="filter-iteam">
-              <button class="filter-button" type="button">Дизайн</button>
+            <li class="filter__iteam">
+              <button class="filter__button" type="button">Дизайн</button>
             </li>
-            <li class="filter-iteam">
-              <button class="filter-button" type="button">Маркетинг</button>
+            <li class="filter__iteam">
+              <button class="filter__button" type="button">Маркетинг</button>
             </li>
           </ul>
         </div>
         <div class="container">
           <h2 class="visually-hidden">Примеры работ</h2>
-          <ul class="project-list list">
-            <li class="project-iteam">
-              <a href="" class="project-link link">
-                <div class="project-thumb">
-                  <img
-                    src="./img/project-img1.jpg"
-                    alt="Технокряк"
-                    width="370"
-                    height="294"
-                  />
-                  <div class="project-overlay">
-                    <p class="project-overlay-text">
+          <ul class="examples__list list">
+            <li class="examples__item">
+              <a href="" class="examples__link link">
+                <div class="examples__thumb">
+                  <img class="examples__img" src="./img/project-img1.jpg" alt="Технокряк" width="370" height="294" />
+                  <div class="examples__overlay">
+                    <p class="examples__overlay-text">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения <br />
@@ -110,195 +96,163 @@
                     </p>
                   </div>
                 </div>
-                <div class="text-content-iteam">
-                  <h3 class="project-title">Технокряк</h3>
-                  <p class="project-category">Веб-сайт</p>
+                <div class="examples__meta">
+                  <h3 class="examples__subtitle">Технокряк</h3>
+                  <p class="examples__type">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="project-iteam">
-              <a href="" class="project-link link">
-                <div class="project-thumb">
-                  <img
-                    src="./img/project-img2.jpg"
-                    alt="Технокряк"
-                    width="370"
-                    height="294"
-                  />
-                  <div class="project-overlay">
-                    <p class="project-overlay-text">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Perferendis rem asperiores exercitationem id saepe nostrum
-                      dolorum. Voluptate nostrum incidunt id dolores ducimus?
+            <li class="examples__item">
+              <a href="" class="examples__link link">
+                <div class="examples__thumb">
+                  <img class="examples__img" src="./img/project-img2.jpg" alt="Технокряк" width="370" height="294" />
+                  <div class="examples__overlay">
+                    <p class="examples__overlay-text">
+                      Ресурс предлагает комплексные предложения с разным уровнем
+                      функционала и сервисов. Все это позволит посетителю
+                      получить исчерпывающие сведения <br />
+                      о компании или частном лице.
                     </p>
                   </div>
                 </div>
-                <div class="text-content-iteam">
-                  <h3 class="project-title">
-                    Постер New Orlean vs Golden Star
+                <div class="examples__meta">
+                  <h3 class="examples__subtitle">
+                    Постер New Orlean vs Golden Sta
                   </h3>
-                  <p class="project-category">Дизайн</p>
+                  <p class="examples__type">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="project-iteam">
-              <a href="" class="project-link link">
-                <div class="project-thumb">
-                  <img
-                    src="./img/project-img3.jpg"
-                    alt="Технокряк"
-                    width="370"
-                    height="294"
-                  />
-                  <div class="project-overlay">
-                    <p class="project-overlay-text">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Perferendis rem asperiores exercitationem id saepe nostrum
-                      dolorum. Voluptate nostrum incidunt id dolores ducimus?
+            <li class="examples__item">
+              <a href="" class="examples__link link">
+                <div class="examples__thumb">
+                  <img class="examples__img" src="./img/project-img3.jpg" alt="Технокряк" width="370" height="294" />
+                  <div class="examples__overlay">
+                    <p class="examples__overlay-text">
+                      Ресурс предлагает комплексные предложения с разным уровнем
+                      функционала и сервисов. Все это позволит посетителю
+                      получить исчерпывающие сведения <br />
+                      о компании или частном лице.
                     </p>
                   </div>
                 </div>
-                <div class="text-content-iteam">
-                  <h3 class="project-title">Ресторан Seafood</h3>
-                  <p class="project-category">Приложение</p>
+                <div class="examples__meta">
+                  <h3 class="examples__subtitle">Ресторан Seafood</h3>
+                  <p class="examples__type">Приложение</p>
                 </div>
               </a>
             </li>
-            <li class="project-iteam">
-              <a href="" class="project-link link">
-                <div class="project-thumb">
-                  <img
-                    src="./img/project-img4.jpg"
-                    alt="Технокряк"
-                    width="370"
-                    height="294"
-                  />
-                  <div class="project-overlay">
-                    <p class="project-overlay-text">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Perferendis rem asperiores exercitationem id saepe nostrum
-                      dolorum. Voluptate nostrum incidunt id dolores ducimus?
+            <li class="examples__item">
+              <a href="" class="examples__link link">
+                <div class="examples__thumb">
+                  <img class="examples__img" src="./img/project-img4.jpg" alt="Технокряк" width="370" height="294" />
+                  <div class="examples__overlay">
+                    <p class="examples__overlay-text">
+                      Ресурс предлагает комплексные предложения с разным уровнем
+                      функционала и сервисов. Все это позволит посетителю
+                      получить исчерпывающие сведения <br />
+                      о компании или частном лице.
                     </p>
                   </div>
                 </div>
-                <div class="text-content-iteam">
-                  <h3 class="project-title">Проект Prime</h3>
-                  <p class="project-category">Маркетинг</p>
+                <div class="examples__meta">
+                  <h3 class="examples__subtitle">Проект Prime</h3>
+                  <p class="examples__type">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="project-iteam">
-              <a href="" class="project-link link">
-                <div class="project-thumb">
-                  <img
-                    src="./img/project-img5.jpg"
-                    alt="Технокряк"
-                    width="370"
-                    height="294"
-                  />
-                  <div class="project-overlay">
-                    <p class="project-overlay-text">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Perferendis rem asperiores exercitationem id saepe nostrum
-                      dolorum. Voluptate nostrum incidunt id dolores ducimus?
+            <li class="examples__item">
+              <a href="" class="examples__link link">
+                <div class="examples__thumb">
+                  <img class="examples__img" src="./img/project-img5.jpg" alt="Технокряк" width="370" height="294" />
+                  <div class="examples__overlay">
+                    <p class="examples__overlay-text">
+                      Ресурс предлагает комплексные предложения с разным уровнем
+                      функционала и сервисов. Все это позволит посетителю
+                      получить исчерпывающие сведения <br />
+                      о компании или частном лице.
                     </p>
                   </div>
                 </div>
-                <div class="text-content-iteam">
-                  <h3 class="project-title">Проект Boxes</h3>
-                  <p class="project-category">Приложение</p>
+                <div class="examples__meta">
+                  <h3 class="examples__subtitle">Проект Boxes</h3>
+                  <p class="examples__type">Приложение</p>
                 </div>
               </a>
             </li>
-            <li class="project-iteam">
-              <a href="" class="project-link link">
-                <div class="project-thumb">
-                  <img
-                    src="./img/project-img6.jpg"
-                    alt="Технокряк"
-                    width="370"
-                    height="294"
-                  />
-                  <div class="project-overlay">
-                    <p class="project-overlay-text">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Perferendis rem asperiores exercitationem id saepe nostrum
-                      dolorum. Voluptate nostrum incidunt id dolores ducimus?
+            <li class="examples__item">
+              <a href="" class="examples__link link">
+                <div class="examples__thumb">
+                  <img class="examples__img" src="./img/project-img6.jpg" alt="Технокряк" width="370" height="294" />
+                  <div class="examples__overlay">
+                    <p class="examples__overlay-text">
+                      Ресурс предлагает комплексные предложения с разным уровнем
+                      функционала и сервисов. Все это позволит посетителю
+                      получить исчерпывающие сведения <br />
+                      о компании или частном лице.
                     </p>
                   </div>
                 </div>
-                <div class="text-content-iteam">
-                  <h3 class="project-title">Inspiration has no Borders</h3>
-                  <p class="project-category">Веб-сайт</p>
+                <div class="examples__meta">
+                  <h3 class="examples__subtitle">Inspiration has no Borders</h3>
+                  <p class="examples__type">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="project-iteam">
-              <a href="" class="project-link link">
-                <div class="project-thumb">
-                  <img
-                    src="./img/project-img7.jpg"
-                    alt="Технокряк"
-                    width="370"
-                    height="294"
-                  />
-                  <div class="project-overlay">
-                    <p class="project-overlay-text">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Perferendis rem asperiores exercitationem id saepe nostrum
-                      dolorum. Voluptate nostrum incidunt id dolores ducimus?
+            <li class="examples__item">
+              <a href="" class="examples__link link">
+                <div class="examples__thumb">
+                  <img class="examples__img" src="./img/project-img7.jpg" alt="Технокряк" width="370" height="294" />
+                  <div class="examples__overlay">
+                    <p class="examples__overlay-text">
+                      Ресурс предлагает комплексные предложения с разным уровнем
+                      функционала и сервисов. Все это позволит посетителю
+                      получить исчерпывающие сведения <br />
+                      о компании или частном лице.
                     </p>
                   </div>
                 </div>
-                <div class="text-content-iteam">
-                  <h3 class="project-title">Издание Limited Edition</h3>
-                  <p class="project-category">Дизайн</p>
+                <div class="examples__meta">
+                  <h3 class="examples__subtitle">Издание Limited Edition</h3>
+                  <p class="examples__type">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="project-iteam">
-              <a href="" class="project-link link">
-                <div class="project-thumb">
-                  <img
-                    src="./img/project-img8.jpg"
-                    alt="Технокряк"
-                    width="370"
-                    height="294"
-                  />
-                  <div class="project-overlay">
-                    <p class="project-overlay-text">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Perferendis rem asperiores exercitationem id saepe nostrum
-                      dolorum. Voluptate nostrum incidunt id dolores ducimus?
+            <li class="examples__item">
+              <a href="" class="examples__link link">
+                <div class="examples__thumb">
+                  <img class="examples__img" src="./img/project-img8.jpg" alt="Технокряк" width="370" height="294" />
+                  <div class="examples__overlay">
+                    <p class="examples__overlay-text">
+                      Ресурс предлагает комплексные предложения с разным уровнем
+                      функционала и сервисов. Все это позволит посетителю
+                      получить исчерпывающие сведения <br />
+                      о компании или частном лице.
                     </p>
                   </div>
                 </div>
-                <div class="text-content-iteam">
-                  <h3 class="project-title">Проект LAB</h3>
-                  <p class="project-category">Маркетинг</p>
+                <div class="examples__meta">
+                  <h3 class="examples__subtitle">Проект LAB</h3>
+                  <p class="examples__type">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="project-iteam">
-              <a href="" class="project-link link">
-                <div class="project-thumb">
-                  <img
-                    src="./img/project-img9.jpg"
-                    alt="Технокряк"
-                    width="370"
-                    height="294"
-                  />
-                  <div class="project-overlay">
-                    <p class="project-overlay-text">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Perferendis rem asperiores exercitationem id saepe nostrum
-                      dolorum. Voluptate nostrum incidunt id dolores ducimus?
+            <li class="examples__item">
+              <a href="" class="examples__link link">
+                <div class="examples__thumb">
+                  <img class="examples__img" src="./img/project-img9.jpg" alt="Технокряк" width="370" height="294" />
+                  <div class="examples__overlay">
+                    <p class="examples__overlay-text">
+                      Ресурс предлагает комплексные предложения с разным уровнем
+                      функционала и сервисов. Все это позволит посетителю
+                      получить исчерпывающие сведения <br />
+                      о компании или частном лице.
                     </p>
                   </div>
                 </div>
-                <div class="text-content-iteam">
-                  <h3 class="project-title">Growing Business</h3>
-                  <p class="project-category">Приложение</p>
+                <div class="examples__meta">
+                  <h3 class="examples__subtitle">Growing Business</h3>
+                  <p class="examples__type">Приложение</p>
                 </div>
               </a>
             </li>
@@ -307,83 +261,79 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container footer-main">
-        <div class="footer-nav">
-          <a class="logo-footer" href="./index.html"
-            ><span class="logo-footer-dec">Web</span>Studio</a
-          >
-          <address class="footer-address">
-            г. Киев, пр-т Леси Украинки, 26
-          </address>
-          <ul class="footer-contact-iteams list">
-            <li class="contact-iteam">
-              <a href="mailto:info@example.com" class="link"
-                >info@example.com</a
-              >
-            </li>
-            <li class="contact-iteam">
-              <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer-soc">
-          <h3 class="footer-soc-title">присоединяйтесь</h3>
-          <ul class="footer-soc-icon-list list">
-            <li class="footer-soc-icon-iteam">
-              <a href="" class="footer-soc-icon-link">
-                <svg class="footer-soc-icon" width="20px" height="20px">
-                  <use href="./images/icons.svg#icon-instagram-2"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-soc-icon-iteam">
-              <a href="" class="footer-soc-icon-link">
-                <svg class="footer-soc-icon" width="20px" height="20px">
-                  <use href="./images/icons.svg#icon-twitter-1"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-soc-icon-iteam">
-              <a href="" class="footer-soc-icon-link">
-                <svg class="footer-soc-icon" width="20px" height="20px">
-                  <use href="./images/icons.svg#icon-facebook-1"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-soc-icon-iteam">
-              <a href="" class="footer-soc-icon-link">
-                <svg class="footer-soc-icon" width="20px" height="20px">
-                  <use href="./images/icons.svg#icon-linkedin-1"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <form class="footer-form">
-          <div class="footer-form-container">
-            <div class="footer-form-field">
-              <label for="e-mail" class="footer-form-label"
-                >Подпишитесь на рассылку</label
-              >
-              <input
-                class="footer-form-input"
-                type="email"
-                name="email"
-                id="email"
-                placeholder="E-mail"
-              />
-            </div>
-            <div class="footer-form-button">
-              <button type="submit" class="footer-submit-button">
-                Подписаться
-                <svg class="footer-button-icon" width="24px" height="24px">
-                  <use href="./images/icons.svg#icon-send"></use>
-                </svg>
-              </button>
-            </div>
+      <div class="container">
+        <div class="footer__wrap">
+          <div class="footer-column__wrap">
+
+            <a class="logo" href="./index.html">
+              Web<span class="footer-logo">Studio</span>
+            </a>
+
+            <address class="footer-address">
+              г. Киев, пр-т Леси Украинки, 26
+            </address>
+
+            <ul class="footer-contact list">
+              <li class="footer-contact__item">
+                <a class="footer-contact__link link" href="mailto:info@example.com">info@example.com</a>
+              </li>
+              <li class="footer-contact__item">
+                <a class="footer-contact__link link" href="tel:+380961111111">+38 096 111 11 11</a>
+              </li>
+            </ul>
           </div>
-        </form>
+          <div class="footer-soc">
+            <h3 class="footer-soc__title">присоединяйтесь</h3>
+            <ul class="soc footer-soc__list list">
+              <li class="soc__item footer-soc__item">
+                <a href="" class="soc__link footer-soc__link">
+                  <svg class="soc__icon footer-soc__icon" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-instagram-2"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="soc__item footer-soc__item">
+                <a href="" class="soc__link footer-soc__link">
+                  <svg class="soc__icon footer-soc__icon" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="soc__item footer-soc__item">
+                <a href="" class="soc__link footer-soc__link">
+                  <svg class="soc__icon footer-soc__icon" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-facebook-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="soc__item footer-soc__item">
+                <a href="" class="soc__link footer-soc__link">
+                  <svg class="soc__icon footer-soc__icon" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-linkedin-1"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <form class="footer-form">
+            <div class="footer-form__wrap">
+              <label class="footer-form__field">
+                <span class="footer-form__label">Подпишитесь на рассылку</span>
+                <input class="footer-form__input" type="email" name="email" placeholder="E-mail" />
+              </label>
+              <div class="footer-form__button-wrap">
+                <button class="footer-button button" type="submit">
+                  Подписаться
+                  <svg class="footer-button__icon" width="24px" height="24px">
+                    <use href="./images/icons.svg#icon-send"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
     </footer>
   </body>
+
 </html>

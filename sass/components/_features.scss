@@ -1,0 +1,43 @@
+.features {
+  padding-top: 94px;
+}
+
+.features-list {
+  display: flex;
+  gap: 30px;
+
+}
+
+.features-list__item {
+  width: 270px;
+}
+
+.features-list__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  background-color: $ColorFutureIconBackground;
+}
+
+.features-list__subtitle {
+  padding-top: 30px;
+
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $ColorTitle;
+}
+
+.features-list__text {
+  margin-top: 10px;
+
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  white-space: normal;
+
+  color: $ColorPrimaryText;
+}

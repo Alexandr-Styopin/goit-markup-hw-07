@@ -1,0 +1,38 @@
+.clients {
+
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+
+}
+
+.clients__link {
+  width: 170px;
+  height: 92px;
+  border: 1px solid $ColorClientIcon;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: border-color 250ms $CubicBezier;
+
+  &:hover,
+  &:focus {
+    border-color: $ColorAccent;
+  }
+}
+
+
+
+.clients__logo {
+  fill: $ColorClientIcon;
+  transition: fill 250ms $CubicBezier;
+
+
+}
+
+.clients__link:hover .clients__logo,
+.clients__link:focus .clients__logo {
+  fill: $ColorAccent;
+}
