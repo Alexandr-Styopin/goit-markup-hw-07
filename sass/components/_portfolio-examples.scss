@@ -45,12 +45,14 @@
   background-color: $ColorOverlayBackground;
   transform: translateY(100%);
   transition: transform 250ms $CubicBezier;
+
+  .examples__link:hover &,
+  .examples__link:focus & {
+    transform: translateY(0);
+  }
 }
 
-.examples__link:hover .examples__overlay,
-.examples__link:focus .examples__overlay {
-  transform: translateY(0);
-}
+
 
 .examples__overlay-text {
   position: absolute;

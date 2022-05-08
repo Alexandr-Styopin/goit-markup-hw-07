@@ -1,9 +1,7 @@
 .clients {
-
   display: flex;
   gap: 30px;
   justify-content: center;
-
 }
 
 .clients__link {
@@ -23,13 +21,9 @@
   }
 }
 
-
-
 .clients__logo {
   fill: $ColorClientIcon;
   transition: fill 250ms $CubicBezier;
-
-
 }
 
 .clients__link:hover .clients__logo,
