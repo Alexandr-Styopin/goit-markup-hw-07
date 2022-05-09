@@ -14,7 +14,7 @@
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
-  color: $ColorTitle;
+  color: $color_title;
 }
 
 .form-field {
@@ -37,7 +37,7 @@
   height: 40px;
   padding: 12px 12px 12px 42px;
 
-  border: 1px solid $ColorModalFormBorder;
+  border: 1px solid $color_form_border;
   border-radius: 4px;
   outline: none;
   transition: border-color 250ms $CubicBezier;
@@ -49,7 +49,7 @@
   letter-spacing: 0.01em;
 
   &:focus {
-    border: 1px solid $ColorAccent;
+    border: 1px solid $color_accent;
   }
 }
 
@@ -57,11 +57,11 @@
   position: absolute;
   left: 12px;
   bottom: 11px;
-  fill: var(--form-icons-color);
+  fill: $color_form_icons;
   transition: fill 250ms $CubicBezier;
 
   .form-field__input:focus+& {
-    fill: $ColorAccent;
+    fill: $color_accent;
   }
 }
 
@@ -86,7 +86,7 @@
 
   padding: 16px 12px;
 
-  border: 1px solid $ColorModalFormBorder;
+  border: 1px solid $color_form_border;
   border-radius: 4px;
   outline: none;
 
@@ -97,14 +97,14 @@
   letter-spacing: 0.01em;
 
   &:focus {
-    border: 1px solid $ColorAccent;
+    border: 1px solid $color_accent;
   }
 
   &::placeholder {
     font-size: 14px;
     letter-spacing: 0.01em;
 
-    color: $ColorModalFormPlaceholder;
+    color: $color_form_placeholder;
   }
 }
 
@@ -124,16 +124,16 @@
   width: 16px;
   height: 15px;
 
-  background-color: $ColorPrimaryBG;
+  background-color: $color_primary_bg;
   border: 2px solid;
   border-radius: 2px;
-  border-color: $ColorModalChekOffBorder;
+  border-color: $color_checkoff_border;
   transition: background-color 250ms $CubicBezier;
 }
 
 .check__input:checked+.check__box {
   background-image: url("data:image/svg+xml,%3Csvg width='13' height='10' viewBox='0 0 13 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.95703 4.75166L1.88825 4.68604L1.81923 4.75141L0.93123 5.59258L0.854858 5.66492L0.930974 5.73753L4.42671 9.07236L4.49574 9.1382L4.56476 9.07236L12.069 1.91352L12.1449 1.84116L12.069 1.76881L11.1873 0.927644L11.1183 0.861826L11.0493 0.927611L4.49577 7.17353L1.95703 4.75166Z' fill='white' stroke='white' stroke-width='0.2'/%3E%3C/svg%3E%0A");
-  background-color: $ColorAccent;
+  background-color: $color_accent;
   background-repeat: no-repeat;
   background-origin: border-box;
   background-size: contain;
@@ -161,7 +161,7 @@
 }
 
 .check__lable-link {
-  color: $ColorAccent;
+  color: $color_accent;
 
   &:hover,
   &:focus {

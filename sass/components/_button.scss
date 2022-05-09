@@ -15,8 +15,8 @@
     line-height: 1.8;
     letter-spacing: 0.06em;
 
-    color: $ColorButtonContent;
-    background-color: $ColorButton;
+    color: $color_btn_content;
+    background-color: $color_btn_bg;
 
     transition: background-color 250ms $CubicBezier;
 
@@ -24,6 +24,6 @@
 
     &:hover,
     &:focus {
-        background-color: $ColorButtonHover;
+        background-color: $color_btn_hover;
     }
 }

@@ -7,7 +7,7 @@
 .clients__link {
   width: 170px;
   height: 92px;
-  border: 1px solid $ColorClientIcon;
+  border: 1px solid $color_primary_icons;
   border-radius: 4px;
   display: flex;
   justify-content: center;
@@ -17,16 +17,16 @@
 
   &:hover,
   &:focus {
-    border-color: $ColorAccent;
+    border-color: $color_accent;
   }
 }
 
 .clients__logo {
-  fill: $ColorClientIcon;
+  fill: $color_primary_icons;
   transition: fill 250ms $CubicBezier;
 }
 
 .clients__link:hover .clients__logo,
 .clients__link:focus .clients__logo {
-  fill: $ColorAccent;
+  fill: $color_accent;
 }

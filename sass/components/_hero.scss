@@ -4,7 +4,7 @@
   margin: 0 auto;
   max-width: 1600px;
   height: 600px;
-  background-color: $ColorHeroBackground;
+  background-color: $color_hero_bg;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)),
     url(../img/hero-Img.jpg);
@@ -24,7 +24,7 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: $ColorHeroTitle;
+  color: $calor_hero_title;
 }
 
 .hero__button {

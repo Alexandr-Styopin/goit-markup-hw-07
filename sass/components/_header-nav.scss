@@ -20,7 +20,7 @@
 
   font-weight: 500;
   letter-spacing: 0.02em;
-  color: $ColorNavText;
+  color: $color_link;
 
   transition: color 250ms $CubicBezier;
 
@@ -32,7 +32,7 @@
     height: 4px;
     bottom: -1px;
     border-radius: 2px;
-    background-color: $ColorAccent;
+    background-color: $color_accent;
     transform: scaleX(0);
     transition: transform 250ms $CubicBezier;
   }
@@ -42,6 +42,6 @@
   }
 
   &:hover {
-    color: $ColorAccent;
+    color: $color_accent;
   }
 }

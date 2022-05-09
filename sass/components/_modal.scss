@@ -6,7 +6,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: $ColorModalBackdrop;
+  background-color: $color_modal_backdrop_bg;
   opacity: 1;
   transition: opacity 250ms $CubicBezier;
 
@@ -28,7 +28,7 @@
   min-height: 581px;
 
   border-radius: 4px;
-  background-color: $ColorPrimaryBG;
+  background-color: $color_primary_bg;
 
   transform: translate(-50%, -50%) scale(1, 1);
   transition: transform 250ms $CubicBezier;
@@ -50,15 +50,15 @@
   width: 30px;
   height: 30px;
   border-radius: 50px;
-  border: 1px solid $ColorModalCloseBtnBorder;
-  fill: $ColorModalCloseBtn;
-  background-color: $ColorPrimaryBG;
+  border: 1px solid $color_close_btn_border;
+  fill: $color_close_btn;
+  background-color: $color_primary_bg;
 
   cursor: pointer;
 
   transition: fill 250ms;
 
   &:hover {
-    fill: $ColorAccent;
+    fill: $color_accent;
   }
 }

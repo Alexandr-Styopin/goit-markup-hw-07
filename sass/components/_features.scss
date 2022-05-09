@@ -19,7 +19,7 @@
   width: 270px;
   height: 120px;
   border-radius: 4px;
-  background-color: $ColorFutureIconBackground;
+  background-color: $color_secondary_bg;
 }
 
 .features-list__subtitle {
@@ -29,7 +29,7 @@
   font-size: 14px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: $ColorTitle;
+  color: $color_title;
 }
 
 .features-list__text {
@@ -39,5 +39,5 @@
   letter-spacing: 0.03em;
   white-space: normal;
 
-  color: $ColorPrimaryText;
+  color: $color_primary_text;
 }

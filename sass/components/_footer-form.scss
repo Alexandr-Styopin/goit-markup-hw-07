@@ -20,7 +20,7 @@
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: $ColorFooterText;
+    color: $color_secondary_text;
 }
 
 .footer-form__input {
@@ -28,12 +28,12 @@
     width: 358px;
     height: 50px;
 
-    background-color: $ColorFooterBackground;
-    border: 1px solid $ColorFooterBorder;
+    background-color: $color_footer_bg;
+    border: 1px solid $color_footer_form_border;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     outline: transparent;
-    color: $ColorFooterText;
+    color: $color_secondary_text;
 
     font-family: "Roboto";
     font-style: normal;
@@ -43,10 +43,10 @@
 
     letter-spacing: 0.03em;
 
-    transition: border-color 250ms var(--cubic-bezier);
+    transition: border-color 250ms $CubicBezier;
 
     &:focus {
-        border-color: var(--accent-color);
+        border-color: $color_accent;
     }
 
     &::placeholder {
@@ -55,7 +55,7 @@
         line-height: 1.25;
         letter-spacing: 0.03em;
 
-        color: $ColorFooterPlaceholder;
+        color: $color_footer_form_placeholder;
     }
 }
 

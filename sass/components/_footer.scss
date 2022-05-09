@@ -2,7 +2,7 @@
   padding-top: 60px;
   padding-bottom: 60px;
 
-  background-color: $ColorFooterBackground;
+  background-color: $color_footer_bg;
 
 
 
@@ -16,7 +16,7 @@
 }
 
 .footer-logo {
-  color: $ColorLogoFooter;
+  color: $color_footer_logo;
 }
 
 .footer-address {
@@ -24,7 +24,7 @@
 
   font-style: normal;
   line-height: 1.7;
-  color: $ColorFooterText;
+  color: $color_secondary_text;
 }
 
 .footer-contact__item {
@@ -33,11 +33,11 @@
 
 .footer-contact__link {
   line-height: 1.7;
-  color: $ColorFooterContact;
+  color: $color_footer_text;
   transition: color 250ms $CubicBezier;
 
   &:hover,
   &:focus {
-    color: $ColorAccent;
+    color: $color_accent;
   }
 }

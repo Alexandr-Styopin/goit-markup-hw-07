@@ -11,7 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: $ColorSocBackground;
+  background-color: $color_primary_bg;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -20,17 +20,17 @@
 
   &:hover,
   &:focus {
-    background-color: $ColorAccent;
+    background-color: $color_accent;
   }
 }
 
 // ---------------
 .soc__icon {
-  fill: $ColorIcon;
+  fill: $color_primary_icons;
   transition: fill 250ms $CubicBezier;
 
   .soc__link:hover &,
   .soc__link:focus & {
-    fill: $ColorSocBackground;
+    fill: $color_primary_bg;
   }
 }

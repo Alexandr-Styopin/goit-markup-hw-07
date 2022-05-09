@@ -4,88 +4,72 @@
  $color_footer_bg: #2f303a;
  $color_icon_bg: rgba(255, 255, 255, 0.1);
  $color_overlay_bg: rgba(33, 150, 243, 0.9);
- $color_label_bg: #2f303acc;
  $color_primary_icons: #AFB1B8;
- $color_form_icons_bg: #212121;
- $color_buttons_bg: #2196F3;
- $color_madal_close_btn_bg: #000000;
- $modal_backdrop_bg: rgba(0, 0, 0, 0.2);
+
+ ////////LOGO
+ $color_loro: #2196f3;
+
+ ////////HEADER
+ $color_link: #212121;
+ $color_header_logo: #000000;
+ $color_header_border: rgba(236, 236, 236, 1);
+
+ ////////HERO
+ $color_hero_bg: #2f303a;
+ $calor_hero_title: #ffffff;
+
+ ////////SERVICES
+ $color_label_bg: #2f303acc;
+
+ ////////FOOTER-CONTACT
+ $color_footer_text: rgba(255, 255, 255, 0.6);
+
+ ////////FOOTER-LOGO
+ $color_footer_logo: #ffffff;
+
+ ////////FOOTER-FORM
+ $color_footer_form_border: rgba(255, 255, 255, 0.3);
+ $color_footer_form_placeholder: rgba(255, 255, 255, 0.6);
+
+ ////////FOOTER-SOC
+ $color_footer_icon_bg: rgba(255, 255, 255, 0.1);
+ $color_footer_icon: #ffffff;
+
  ////////TEXT-COLORS
  $color_title: #212121;
- $color_secondary_title: #ffffff;
  $color_primary_text: #757575;
- $color_footer_text: rgba(255, 255, 255, 0.6);
+ $color_secondary_text: #ffffff;
+
+ /////////BUTTON-COLORS
+ $color_btn_bg: #2196F3;
+ $color_btn_content: #ffffff;
+ $color_btn_hover: #188CE8;
+
+ ////////MODAL
+ $color_modal_backdrop_bg: rgba(0, 0, 0, 0.2);
+ $color_form_border: rgba(33, 33, 33, 0.2);
+ $color_form_icons: #212121;
+ $color_form_placeholder: gba(117, 117, 117, 0.5);
+ //  --check
+ $color_checkoff_border: #212121;
+
+ // --CLOSE-BTN
+ $color_close_btn: #000000;
+ $color_close_btn_border: rgba(0, 0, 0, 0.1);
+
+ ////////FILTER-BTN
+ $color_filter_btn: #F5F4FA;
+ $color_filter_btn_hover: #2196F3;
+ ////////EXAMPLES
+ $color-examples-border: rgba(236, 236, 236, 1);
+
+ /////////CARD-SET-COLORS
+ $color_card_bg: #ffffff;
+ $color_card_name: #212121;
+ $color_card_icons: #AFB1B8;
+
  /////////COMMON COLOR
  $color_accent: #2196F3;
- $color_button_hover: #188CE8;
- $color_form_border: rgba(255, 255, 255, 0.3);
- $color_modal_form_border: rgba(33, 33, 33, 0.2);
 
-
- /////////////////////////////////////////////////////////
- // ---background colors
- $ColorPrimaryBG: #ffffff;
- $ColorSecondaryBackground: #f5f4fa;
- $ColorFooterBackground: #2f303a;
- // accent color
- $ColorAccent: #2196f3;
- // button color
- $ColorButton: #2196f3;
- $ColorButtonHover: #188CE8;
- $ColorButtonContent: #ffffff;
- // ---header
- $ColorLogoHeader: #000000;
- $ColorHeaderBorder: rgba(236, 236, 236, 1);
- $ColorLogoFooter: #ffffff;
- $ColorHeaderBackground: #ffffff;
- // ---logo
- $ColorLogo: #2196f3;
- // ---header nav
- $ColorNavText: #212121;
- // ---header contacts
- $ColorContactTextIcon: #757575;
- // hero
- $ColorHeroBackground: #2f303a;
- $ColorHeroTitle: #ffffff;
- // future
- $ColorFutureIconBackground: #f5f4fa;
- // services
- $ColorServicesLeableText: #ffffff;
- $ColorServicesLeableBackground: rgba(47, 48, 58, 0.8);
- // clients
- $ColorClientIcon: #afb1b8;
- // filter 
- $ColorFilterBtn: #f5f4fa;
- $ColorFilterTextBtn: #ffffff;
- // examples
- $ColorOverlayBackground: rgba(33, 150, 243, 0.9);
- $ColorOverlayText: #ffffff;
- $ColorExamplesBorder: rgba(236, 236, 236, 1);
- // footer
- $ColorFooterText: #ffffff;
- $ColorFooterContact: rgba(255, 255, 255, 0.6);
- $ColorFooterPlaceholder: rgba(255, 255, 255, 0.6);
- // footer soc
- $ColorFooterSocIconBg: rgba(255, 255, 255, 0.1);
- $ColorFooterSocIcon: #ffffff;
- // footer form
- $ColorFooterBorder: rgba(255, 255, 255, 0.3);
- // modal
- $ColorModalBackdrop: rgba(0, 0, 0, 0.2);
- $ColorModalCloseBtn: #000000;
- $ColorModalCloseBtnBorder: rgba(0, 0, 0, 0.1);
- // modal form
- $ColorModalFormBorder: rgba(33, 33, 33, 0.2);
- $ColorModalFormPlaceholder: rgba(117, 117, 117, 0.5);
- // modal check-agreement
- $ColorModalChekOffBorder: #212121;
- // soc
- $ColorSocBackground: #ffffff;
- $ColorIcon: #AFB1B8;
- // icon
- $ColorIcon: #afb1b8;
- // text color
- $ColorTitle: #212121;
- $ColorPrimaryText: #757575;
 
  $CubicBezier: cubic-bezier(0.4, 0, 0.2, 1);

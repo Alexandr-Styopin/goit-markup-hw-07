@@ -8,7 +8,7 @@
   padding-top: 30px;
   padding-bottom: 30px;
   border-radius: 0px 0px 4px 4px;
-  background-color: $ColorPrimaryBG;
+  background-color: $color_card_bg;
 }
 
 .card-set__name {
@@ -16,7 +16,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  color: $ColorTitle;
+  color: $color_card_name;
 }
 
 .card-set__item {

@@ -11,13 +11,13 @@
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: $ColorFooterText;
+    color: $color_secondary_text;
 }
 
 .footer-soc__link {
-    background-color: $ColorFooterSocIconBg;
+    background-color: $color_footer_icon_bg;
 }
 
 .footer-soc__icon {
-    fill: $ColorFooterSocIcon;
+    fill: $color_footer_icon;
 }

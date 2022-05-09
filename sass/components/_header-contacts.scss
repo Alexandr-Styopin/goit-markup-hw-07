@@ -24,23 +24,23 @@
   font-weight: 500;
   letter-spacing: 0.02em;
 
-  color: $ColorContactTextIcon;
+  color: $color_primary_text;
 
   transition: color 250ms $CubicBezier;
 
   &:hover,
   &:focus {
-    color: $ColorAccent;
+    color: $color_accent;
   }
 }
 
 .header-contacts__icon {
-  fill: $ColorContactTextIcon;
+  fill: $color_primary_text;
   transition: fill 250ms $CubicBezier;
 
   .header-contacts__link:hover &,
   .header-contacts__link:focus & {
-    fill: $ColorAccent;
+    fill: $color_accent;
   }
 }
 

@@ -42,7 +42,7 @@
   width: 100%;
   height: 100%;
 
-  background-color: $ColorOverlayBackground;
+  background-color: $color_overlay_bg;
   transform: translateY(100%);
   transition: transform 250ms $CubicBezier;
 
@@ -64,17 +64,17 @@
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
-  color: $ColorOverlayText;
+  color: $color_secondary_text;
 }
 
 .examples__meta {
-  border: 1px $ColorExamplesBorder;
+  border: 1px $color-examples-border;
   border-style: none solid solid solid;
 
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
-  background-color: $ColorPrimaryBG;
+  background-color: $color_primary_bg;
 }
 
 .examples__subtitle {
@@ -84,7 +84,7 @@
 
   letter-spacing: 0.06em;
 
-  color: $ColorTitle;
+  color: $color_title;
 }
 
 .examples__type {
@@ -92,5 +92,5 @@
   font-size: 16px;
   line-height: 1.8;
 
-  color: $ColorPrimaryText;
+  color: $color_primary_text;
 }
