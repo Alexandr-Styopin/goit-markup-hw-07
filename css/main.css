@@ -710,35 +710,35 @@ body {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
-  color: var(--footer-form-input-placeholder);
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer-form__input::-moz-placeholder {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
-  color: var(--footer-form-input-placeholder);
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer-form__input:-ms-input-placeholder {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
-  color: var(--footer-form-input-placeholder);
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer-form__input::-ms-input-placeholder {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
-  color: var(--footer-form-input-placeholder);
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer-form__input::placeholder {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
-  color: var(--footer-form-input-placeholder);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-form__button-wrap {
@@ -985,7 +985,8 @@ body {
   border-radius: 2px;
   border-color: transparent;
 }
-.check__input:checked + .check__box:focus + .check__box {
+
+.check__input:focus + .check__box {
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -1000,7 +1001,7 @@ body {
 .check__lable-link {
   color: #2196f3;
 }
-.check__lable-link:hover {
+.check__lable-link:hover, .check__lable-link:focus {
   text-decoration: none;
 }
 

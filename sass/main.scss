@@ -1,6 +1,10 @@
 @import "./utils/variables";
+@import "./utils/mixins";
 @import "./utils/utils";
 @import "./utils/hidden";
+
+
+/////////////////////////////////
 @import "./components/body";
 @import "./components/container";
 @import "./components/header";
@@ -10,7 +14,6 @@
 @import "./components/activ";
 @import "./components/hero";
 @import "./components/features";
-
 @import "./components/section";
 @import "./components/services";
 @import "./components/team-section";
