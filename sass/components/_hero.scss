@@ -7,7 +7,7 @@
   background-color: $color_hero_bg;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)),
-    url(../img/hero-Img.jpg);
+    url(../images/hero-Img.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -17,12 +17,9 @@
 .hero__title {
   margin: 0 auto;
   max-width: 696px;
-
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  @include font (900, 44px, 1.36, 0.06em);
   text-align: center;
-  letter-spacing: 0.06em;
+
   text-transform: uppercase;
   color: $calor_hero_title;
 }

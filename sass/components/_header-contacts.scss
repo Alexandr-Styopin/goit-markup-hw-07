@@ -20,9 +20,7 @@
   padding-top: 32px;
   padding-bottom: 32px;
   align-items: center;
-
-  font-weight: 500;
-  letter-spacing: 0.02em;
+  @include font ($fw: 500, $fs: 14px, $lh: 1.14, $ls: 0.03em);
 
   color: $color_primary_text;
 

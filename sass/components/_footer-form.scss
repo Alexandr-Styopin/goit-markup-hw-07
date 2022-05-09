@@ -14,11 +14,7 @@
 .footer-form__label {
     padding-top: 12px;
     margin-bottom: 20px;
-
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
+    @include font (700);
     text-transform: uppercase;
     color: $color_secondary_text;
 }
@@ -37,11 +33,7 @@
 
     font-family: "Roboto";
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1 25;
-
-    letter-spacing: 0.03em;
+    @include font (null, 16px, 1.25);
 
     transition: border-color 250ms $CubicBezier;
 
@@ -50,10 +42,7 @@
     }
 
     &::placeholder {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.25;
-        letter-spacing: 0.03em;
+        @include font (null, 16px, 1.25);
 
         color: $color_footer_form_placeholder;
     }

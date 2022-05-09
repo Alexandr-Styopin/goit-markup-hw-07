@@ -8,12 +8,9 @@
 
 .modal-form__title {
   margin-bottom: 12px;
-
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.15;
+  @include font (700, 20px, 1.15);
   text-align: center;
-  letter-spacing: 0.03em;
+
   color: $color_title;
 }
 
@@ -25,11 +22,8 @@
 .form-field__label {
   display: block;
   margin-bottom: 4px;
+  @include font (null, 12px, 1.16, 0.01em);
 
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.16;
-  letter-spacing: 0.01em;
 }
 
 .form-field__input {
@@ -41,12 +35,8 @@
   border-radius: 4px;
   outline: none;
   transition: border-color 250ms $CubicBezier;
-
+  @include font ($ls: 0.01em);
   font-family: "Roboto";
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.01em;
 
   &:focus {
     border: 1px solid $color_accent;
@@ -91,10 +81,8 @@
   outline: none;
 
   font-family: "Roboto";
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.01em;
+
+  @include font ($ls: 0.01em);
 
   &:focus {
     border: 1px solid $color_accent;

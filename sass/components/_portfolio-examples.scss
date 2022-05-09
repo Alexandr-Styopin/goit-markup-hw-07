@@ -78,19 +78,12 @@
 }
 
 .examples__subtitle {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-
-  letter-spacing: 0.06em;
-
+  @include font (700, 18px, 2, 0.06em);
   color: $color_title;
 }
 
 .examples__type {
   margin-top: 4px;
-  font-size: 16px;
-  line-height: 1.8;
-
+  @include font ($fw: 400, $fs: 16px, $lh: 1.8);
   color: $color_primary_text;
 }

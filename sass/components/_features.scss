@@ -24,10 +24,7 @@
 
 .features-list__subtitle {
   padding-top: 30px;
-
-  font-weight: 700;
-  font-size: 14px;
-  letter-spacing: 0.03em;
+  @include font (700);
   text-transform: uppercase;
   color: $color_title;
 }
