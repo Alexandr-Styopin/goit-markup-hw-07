@@ -1,6 +1,5 @@
-.section__title {
-    @include font (700, 36px 1.16);
+.title {
+    @include font (700, 36px, 1, 16);
     text-align: center;
-
     color: $color_title;
 }

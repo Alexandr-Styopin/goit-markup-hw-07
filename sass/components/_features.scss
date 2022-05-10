@@ -2,17 +2,17 @@
   padding-top: 94px;
 }
 
-.features-list {
+.features__list {
   display: flex;
   gap: 30px;
 
 }
 
-.features-list__item {
+.features__item {
   width: 270px;
 }
 
-.features-list__icon {
+.features__icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,14 +22,14 @@
   background-color: $color_secondary_bg;
 }
 
-.features-list__subtitle {
+.features__subtitle {
   padding-top: 30px;
   @include font (700);
   text-transform: uppercase;
   color: $color_title;
 }
 
-.features-list__text {
+.features__text {
   margin-top: 10px;
 
   line-height: 1.7;

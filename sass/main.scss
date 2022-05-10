@@ -2,8 +2,7 @@
 @import "./utils/mixins";
 @import "./utils/utils";
 @import "./utils/hidden";
-
-
+@import "./utils/placeholders";
 /////////////////////////////////
 @import "./components/body";
 @import "./components/container";
@@ -17,7 +16,6 @@
 @import "./components/section";
 @import "./components/services";
 @import "./components/team-section";
-@import "./components/card-set";
 @import "./components/social";
 @import "./components/clients-list";
 @import "./components/portfolio_filter";
@@ -27,5 +25,4 @@
 @import "./components/footer-form";
 @import "./components/modal";
 @import "./components/modal-forms";
-@import "./components/button";
 @import "./components/title";

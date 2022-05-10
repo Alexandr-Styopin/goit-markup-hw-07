@@ -1,75 +1,64 @@
- ////////BACKGROUND-COLORS
- $color_primary_bg: #ffffff;
- $color_secondary_bg: #f5f4fa;
- $color_footer_bg: #2f303a;
- $color_icon_bg: rgba(255, 255, 255, 0.1);
- $color_overlay_bg: rgba(33, 150, 243, 0.9);
- $color_primary_icons: #AFB1B8;
+/////////////COLORS/////////////
+////////BACKGROUND-COLORS
+$color_primary_bg: #ffffff;
+$color_secondary_bg: #f5f4fa;
+$color_footer_bg: #2f303a;
+$color_icon_bg: rgba(255, 255, 255, 0.1);
+$color_overlay_bg: rgba(33, 150, 243, 0.9);
+$color_primary_icons: #AFB1B8;
+////////LOGO
+$color_loro: #2196f3;
+////////HEADER
+$color_link: #212121;
+$color_header_logo: #000000;
+$color_header_border: rgba(236, 236, 236, 1);
+////////HERO
+$color_hero_bg: #2f303a;
+$calor_hero_title: #ffffff;
+////////SERVICES
+$color_label_bg: #2f303acc;
+////////FOOTER-CONTACT
+$color_footer_text: rgba(255, 255, 255, 0.6);
+////////FOOTER-LOGO
+$color_footer_logo: #ffffff;
+////////FOOTER-FORM
+$color_footer_form_border: rgba(255, 255, 255, 0.3);
+$color_footer_form_placeholder: rgba(255, 255, 255, 0.6);
+////////FOOTER-SOC
+$color_footer_link_bg: rgba(255, 255, 255, 0.1);
+$color_footer_icon: #ffffff;
+////////TEXT-COLORS
+$color_title: #212121;
+$color_primary_text: #757575;
+$color_secondary_text: #ffffff;
+/////////BUTTON-COLORS
+$color_btn_bg: #2196F3;
+$color_btn_content: #ffffff;
+$color_btn_hover: #188CE8;
+////////MODAL
+$color_modal_backdrop_bg: rgba(0, 0, 0, 0.2);
+$color_form_border: rgba(33, 33, 33, 0.2);
+$color_form_icons: #212121;
+$color_form_placeholder: gba(117, 117, 117, 0.5);
+//  --check
+$color_checkoff_border: #212121;
+// --CLOSE-BTN
+$color_close_btn: #000000;
+$color_close_btn_border: rgba(0, 0, 0, 0.1);
+////////FILTER-BTN
+$color_filter_btn: #F5F4FA;
+$color_filter_btn_hover: #2196F3;
+////////EXAMPLES
+$color-examples-border: rgba(236, 236, 236, 1);
+/////////CARD-SET-COLORS
+$color_card_bg: #ffffff;
+$color_card_name: #212121;
+$color_card_icons: #AFB1B8;
+/////////COMMON COLOR
+$color_accent: #2196F3;
 
- ////////LOGO
- $color_loro: #2196f3;
-
- ////////HEADER
- $color_link: #212121;
- $color_header_logo: #000000;
- $color_header_border: rgba(236, 236, 236, 1);
-
- ////////HERO
- $color_hero_bg: #2f303a;
- $calor_hero_title: #ffffff;
-
- ////////SERVICES
- $color_label_bg: #2f303acc;
-
- ////////FOOTER-CONTACT
- $color_footer_text: rgba(255, 255, 255, 0.6);
-
- ////////FOOTER-LOGO
- $color_footer_logo: #ffffff;
-
- ////////FOOTER-FORM
- $color_footer_form_border: rgba(255, 255, 255, 0.3);
- $color_footer_form_placeholder: rgba(255, 255, 255, 0.6);
-
- ////////FOOTER-SOC
- $color_footer_link_bg: rgba(255, 255, 255, 0.1);
- $color_footer_icon: #ffffff;
-
- ////////TEXT-COLORS
- $color_title: #212121;
- $color_primary_text: #757575;
- $color_secondary_text: #ffffff;
-
- /////////BUTTON-COLORS
- $color_btn_bg: #2196F3;
- $color_btn_content: #ffffff;
- $color_btn_hover: #188CE8;
-
- ////////MODAL
- $color_modal_backdrop_bg: rgba(0, 0, 0, 0.2);
- $color_form_border: rgba(33, 33, 33, 0.2);
- $color_form_icons: #212121;
- $color_form_placeholder: gba(117, 117, 117, 0.5);
- //  --check
- $color_checkoff_border: #212121;
-
- // --CLOSE-BTN
- $color_close_btn: #000000;
- $color_close_btn_border: rgba(0, 0, 0, 0.1);
-
- ////////FILTER-BTN
- $color_filter_btn: #F5F4FA;
- $color_filter_btn_hover: #2196F3;
- ////////EXAMPLES
- $color-examples-border: rgba(236, 236, 236, 1);
-
- /////////CARD-SET-COLORS
- $color_card_bg: #ffffff;
- $color_card_name: #212121;
- $color_card_icons: #AFB1B8;
-
- /////////COMMON COLOR
- $color_accent: #2196F3;
-
-
- $CubicBezier: cubic-bezier(0.4, 0, 0.2, 1);
+/////////////FONTS///////////
+$font_primary: Roboto, sans-serif;
+$font_logo: Raleway, sans-serif;
+/////////CUBIC-BEZIER
+$CubicBezier: cubic-bezier(0.4, 0, 0.2, 1);
